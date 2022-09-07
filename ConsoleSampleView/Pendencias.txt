@@ -1,0 +1,3 @@
+Dependencia circular 
+	A reference to "project name" could not be added. Adding this project as a reference would case a circular dependency. 
+	O Automapper resolve isso para nós. Domain não tem que ser referenciado pela UI. O contrário pode ser verdadeiro. Mas trabalhar com AutoMapper

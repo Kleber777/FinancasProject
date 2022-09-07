@@ -1,0 +1,2 @@
+Não confiar em código que não dá para entender nitidamente. 
+O reposítório generico só busca a model sem os includes. A não ser que tenho outra instancia de repositório genérica. Creio que isso tenha a ver com o tipo de injeção de dependência.

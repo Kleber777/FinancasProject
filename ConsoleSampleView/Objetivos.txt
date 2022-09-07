@@ -1,0 +1,40 @@
+Objetivos Realizados: //Pegar connection string do Windows Authentication (X)
+    // Trocar o nome dos namespaces para algo mais simples (X)
+    // PayedInstallments da ExpensesModel, o valor deve vir de outra tabela (X)
+    // Trocar nome do campo _description no banco de dados (X)
+    // Arrumar namespaces (X)
+    // Parcelas pagas e parcelas restantes vão ser valores calculados sistematicamente assim como o total (X)
+    // Implementar logo o banco de dados (X)
+    // Ter uma propriedade avisando quantas parcelas foram pagas - provavelmente terei que ter outra tabela validando esses pagamentos (X)
+    // Ter uma propriedade que calcule as parcelas restantes com base nas quantidade de parcela e nas que foram pagas. (X)
+    // atualizar o dinheiro separado do mercado pago no banco (X)
+    // IMPLEMETAR LOGO O MEU CALCULO DO VALOR DISPONÍVEL. (X)
+    // validar se as informações vem coerente agora com os registros corretos (X)
+    // é necessária ter a propriedade hasinstallments tendo o tipo de pagamento e o count installments. Se for parar para pensar tudo tem parcela nem que seja ao mínimo uma. Não, não é necessário (X)
+    // implementar lógica para não pegar parcela encerrada na tabela (X)
+    // Ter uma propriedade para informar que o dinheiro total da parcela restante está separado na expensestable mesmo? (X)
+    // Ter uma propriedade ou outra tabela para confirmar que a despesa foi encerrada. Por enquanto irei ver se count installments é igual ao paidInstallments.(X)
+    // aproveitar e alterar propriedade hasinstallments irei fazer uma deleção do banco (x)
+    // cadastrar e atualizar tudo no banco. (x)
+    // criar campo para despesa inativa (x)
+    // atualizar nome hasinstallments para dinheiro separado (x)
+
+Objetivos primários
+    // Criar tela para cadastrar os pagamentos das despesas (Já testaria com o 2 pagamento da mesa de sinua feito hoje e o pagamento que será dia 11 do star+)
+    // Criar tela para cadastrar despesas (aparentemente está para chegar aí uma nova despesa - que será as memórias)
+    // atualizar scripts ddl e dml com as datas corretas? 
+    // arrumar os totais no serviço genérico.
+    // fazer o total separado
+
+Objetivos a longo prazo 
+    // Implementar AutoMapper 
+    // Pensar em uma maneira melhor de implementar o serviço que mostra todos os bancos e suas respectivas despesas juntos.
+    // Definir melhor a responsabilidade de cada objeto assim como suas propriedades. O que está separado o valor a separar é responsabilidade do serviço do banco e não do próprio banco em si.
+    // Arrumar namespaces
+
+Features 
+    // Ter tabela ou calculo para mostrar o quanto que está separado de cada despesas. 
+    // Ter tabela ou calculo para mostrar o quanto que resta separar 
+    // Ter tabela ou calculo para mostrar o quanto que a despesas total ou individual está diminuindo? 
+    // Fazer junção do patrimônio inteiro? 
+    // Implementar tela para pode dizer que uma despesa está separada, inativa algo do tipo. 
