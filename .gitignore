@@ -350,6 +350,6 @@ MigrationBackup/
 .ionide/
 
 # Folders or files to ignore 
-\ConsoleSampleView\Consolidado.txt
+ConsoleSampleView\Consolidado.txt
 /Objetivos.txt
 /Pendencias.txt
